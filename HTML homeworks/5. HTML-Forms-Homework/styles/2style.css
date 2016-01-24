@@ -1,0 +1,99 @@
+body
+{
+	font-family : tahoma, sans-serif;
+}
+
+#container
+{
+	width            : 490px;
+	display          : table;
+	/*overflow: auto;*/
+	padding          : 0.3%;
+	margin           : 0 auto;
+	background-color : #ffc0cb;
+	font-style       : italic;
+	font-size        : 0.9em;
+}
+
+h1
+{
+	text-align     : center;
+	font-weight    : bold;
+	font-size      : 2.3em;
+	text-transform : uppercase;
+}
+
+#left, #right
+{
+	float   : left;
+	width   : 48%;
+	padding : 1%;
+}
+
+select, input
+{
+	width : 100%;
+}
+
+select
+{
+	font-weight : bold;
+	height      : 30px;
+	font-size   : 1em;
+	text-transform: capitalize;
+}
+
+input
+{
+	font-size : 1.2em;
+	height    : 25px;
+}
+
+label
+{
+	display : block;
+}
+
+span
+{
+	width      : 100%;
+	height     : 40px;
+	margin-top : 15px;
+	display    : inline-block;
+}
+
+span.higher
+{
+	height : 60px;
+}
+
+input[type="checkbox"]
+{
+	width          : 15px;
+	height         : 15px;
+	vertical-align : middle;
+}
+
+.checkboxLabel
+{
+	display        : inline;
+	vertical-align : middle;
+}
+
+#ageRange span
+{
+	width   : 31.7%;
+}
+
+.time
+{
+	width : 46%;
+}
+
+#search
+{
+	font-size : 1em;
+	height    : 35px;
+}
+
+

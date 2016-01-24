@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="reset.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Free Account</title>
+</head>
+<body>
+    <div id="container">
+        <nav>
+            <figure>
+                <img src="images/paraglider-icon.png">
+                <figcaption>
+                    <h4>Paragliding</h4>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/sky-diver.png">
+                <figcaption>
+                    <h4>Skydiving</h4>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/climbing.png">
+                <figcaption>
+                    <h4>Climbing</h4>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/about-us.png">
+                <figcaption>
+                    <h4>About Us</h4>
+                </figcaption>
+            </figure>
+        </nav>
+        <main>
+            <form class="main">
+                <div class="left">
+                    <fieldset class="part">
+                        <legend>
+                            Personal Info
+                        </legend>
+                        <div id="first-name">
+                            <form method="get"
+                                  action="#">
+                                <input type="text"
+                                       name="first-name"
+                                       placeholder="Enter your full name"
+                                       class="left-div-inputs">
+                                <input type="image"
+                                       src="images/user1.png"
+                                       alt="search"
+                                       title="search">
+                            </form>
+                        </div>
+                        <div id="email">
+                            <form method="get"
+                                  action="#">
+                                <input type="email"
+                                       name="email"
+                                       placeholder="Enter a valid e-mail"
+                                       class="left-div-inputs">
+                                <input type="image"
+                                       src="images/email.png"
+                                       alt="search"
+                                       title="search">
+                            </form>
+                        </div>
+                        <div id="tel">
+                            <form method="get"
+                                  action="#">
+                                <input type="tel"
+                                       name="tel"
+                                       placeholder="Enter a phone number"
+                                       class="left-div-inputs">
+                                <input type="image"
+                                       src="images/phone.png"
+                                       alt="search"
+                                       title="search">
+                            </form>
+                        </div>
+                    </fieldset>
+                </div>
+
+                <div class="right">
+                    <fieldset class="part">
+                        <legend>Flight Info</legend>
+                        <p>Are flying for first time?</p>
+                        <div class="radio">
+                            <span>
+                                <input type="radio"
+                                       name="yes"
+                                       id="yes">
+                                <label for="yes">
+                                    Yes
+                                </label>
+                            </span>
+                            <span>
+                                <input type="radio"
+                                       name="no"
+                                       id="no">
+                                <label for="no">No</label>
+                            </span>
+                        </div>
+                        <div class="destination">
+                            <label for="destination">Choose Destination</label>
+                            <select name="destination"
+                                    required="required" id="destination">
+                                <optgroup label="Bulgaria">
+                                    <option value="bulgaria"
+                                            selected="selected">
+                                        Dobrosan
+                                    </option>
+                                    <option value="bulgaria">Sopot</option>
+                                    <option value="bulgaria">Sofia</option>
+                                    <option value="bulgaria">Bourgas</option>
+                                </optgroup>
+                                <optgroup label="Rest Of The World">
+                                    <option value="rest">Nepal</option>
+                                    <option value="rest">Turkey</option>
+                                    <option value="rest">France</option>
+                                </optgroup>
+                            </select>
+                        </div>
+
+                        <div class="date">
+                            <label for="date">
+                                Choose Date
+                            </label>
+                            <input type="datetime"
+                                   name="date"
+                                   id="date"
+                                   value="mm/dd/yyyy">
+                        </div>
+                    </fieldset>
+                </div>
+
+            </form>
+            <footer>
+                <div>
+                    <input type="reset"
+                           value="Clear">
+                </div>
+                <div>
+                    <input type="submit"
+                           value="Send">
+                </div>
+            </footer>
+        </main>
+    </div>
+</body>
+</html>

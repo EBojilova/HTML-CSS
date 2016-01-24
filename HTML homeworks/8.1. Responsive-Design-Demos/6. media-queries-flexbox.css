@@ -1,0 +1,60 @@
+.wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;  
+  
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  
+  font-weight: bold;
+  text-align: center;
+}
+
+.wrapper > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+.header {
+  background: tomato;
+}
+
+.footer {
+  background: lightgreen;
+}
+
+.main {
+  text-align: left;
+  background: deepskyblue;
+}
+
+.aside-1 {
+  background: gold;
+}
+
+.aside-2 {
+  background: hotpink;
+}
+
+/*https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
+/*https://www.youtube.com/watch?v=G7EIAgfkhmg*/
+@media all and (min-width: 600px) {
+  /*flex-shrink is left as default 1*/
+  /*the same as*/
+  /*flex : 1 0px;*/
+  .aside { flex: 1 auto; }
+}
+
+@media all and (min-width: 800px) {
+  /*flex-shrink is left as default 1*/
+  /*the same as*/
+  /*.aside, .main { flex: 1 auto; }*/
+  /*.main{flex: 2;}*/
+  .main    { flex: 2 0px; }
+  .aside-1 { order: 1; } 
+  .main    { order: 2; }
+  .aside-2 { order: 3; }
+  .footer  { order: 4; }
+}

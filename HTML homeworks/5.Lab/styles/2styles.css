@@ -1,0 +1,166 @@
+body
+{
+	font-size   : 13px;
+	line-height : 18px;
+	font-family : Tahoma, sans-serif;
+}
+
+#wrapper
+{
+	width  : 900px;
+	margin : 0 auto;
+}
+
+nav, article, article div, aside div, aside ul
+{
+	padding : 5px 0;
+}
+
+a, aside h2
+{
+	text-decoration : none;
+	color           : #AFAFAF;
+	font-size       : 1em;
+}
+
+header, aside h2, #articles{
+	border-bottom : solid rgb(240, 240, 240) 1px;
+}
+
+header
+{
+	clear         : both;
+	margin-bottom : 10px;
+}
+
+h2
+{
+	font-size      : 1.5em;
+	padding-top    : 5px;
+	padding-bottom : 3px;
+}
+
+/* header */
+header h1
+{
+	font-size : 2em;
+	margin    : 15px 0px;
+}
+
+nav ul li
+{
+	list-style-type : none;
+	display         : inline-block;
+	padding-right   : 50px;
+	text-transform  : uppercase;
+	font-size       : 90%;
+}
+
+#search
+{
+	float   : right;
+	display : inline-block;
+	padding : 0;
+}
+
+input
+{
+	background-color : rgb(247, 247, 247);
+	border           : solid rgb(240, 240, 240) 1px;
+}
+
+input.placeholder
+{
+	text-align : justify;
+
+}
+
+/* sidebars */
+aside ul li
+{
+	list-style-type : none;
+	display         : inline-block;
+}
+
+aside a
+{
+	text-decoration : none;
+	color           : rgb(141, 191, 216);
+	padding         : 3px;
+}
+
+#right
+{
+	padding : 5px;
+	float   : right;
+	width   : 20%;
+}
+
+#left
+{
+	padding : 5px;
+	float   : left;
+	width   : 20%;
+}
+
+/* section */
+section
+{
+	padding : 5px;
+	float   : left;
+	width   : 55%;
+}
+
+article address
+{
+	word-spacing  : 2px;
+	font-size     : 80%;
+	margin-bottom : 20px;
+	color         : #AFAFAF;
+}
+
+section .blue
+{
+	color : rgb(141, 191, 216);
+}
+
+/* footer */
+footer
+{
+	padding-top: 10px;
+	width            : 100%;
+	float:left;
+	background-color : black;
+	color            : white;
+}
+
+footer table
+{
+	width : 100%;
+	display: inline-block;
+}
+
+table ul
+{
+	list-style-type : none;
+	padding         : 0;
+}
+
+table th, td
+{
+	width          : 20%;
+	vertical-align : top;
+	text-align     : left;
+	padding: 5px 10px;
+}
+
+footer .grey
+{
+	color : #5E665C;
+
+}
+
+footer #foot-header
+{
+	font-size    : 130%;
+}

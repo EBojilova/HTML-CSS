@@ -1,0 +1,116 @@
+body
+{
+	font-size   : 16px;
+	font-family : tahoma, sans-serif;
+}
+
+#container
+{
+	width            : 675px;
+	display          : table;
+	/*overflow: auto;*/
+	margin           : 0 auto;
+	background-color : #eeeeee;
+	padding : 2%;
+}
+
+h2
+{
+	font-size   : 1.5em;
+	color   : #1a3d5f;
+	font-weight    : bold;
+}
+
+header p
+{
+	font-size     : 0.8em;
+	color         : #a4a4a4;
+	margin-bottom : 30px;
+}
+
+#register p, #login p
+{
+	text-transform: uppercase;
+	font-weight : bold;
+	padding-bottom: 2%;
+}
+
+#register, #login
+{
+	float   : left;
+	width   : 46%;
+	padding : 2%;
+	height  : 250px;
+}
+
+#login
+{
+	background-color : #234465;
+	color            : white;
+}
+
+#new
+{
+	color : #6d6d6d;
+}
+
+#reg
+{
+	color : #16395c;
+}
+
+input
+{
+	height        : 32px;
+	width         : 96%;
+	margin-bottom : 15px;
+	padding-left  : 10px;
+}
+
+#register input
+{
+	border-color : #d9d9d9;
+	border-style : solid;
+}
+
+#register input[type="submit"]
+{
+	float            : right;
+	width            : 43%;
+	color            : #365472;
+	background-color : #eeeeee;
+	border-color     : #365472;
+	border-style     : solid;
+	clear: both;
+}
+
+#login input[type="submit"]
+{
+	float            : right;
+	width            : 40%;
+	color            : white;
+	border-color     : #ffa700;
+	background-color : #234465;
+	border-style     : solid;
+	clear: both;
+}
+
+#login a
+{
+	color        : white;
+	font-size    : 0.8em;
+	float: right;
+	clear: both;
+}
+
+#login label
+{
+	vertical-align : top;
+	font-size      : 0.8em;
+}
+
+#remember
+{
+	width  : 20px;
+	height : 20px;
+}

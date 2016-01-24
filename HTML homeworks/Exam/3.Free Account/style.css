@@ -1,0 +1,139 @@
+﻿body {
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  color: #3A6F8E; }
+  body #container {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    margin-left: -400px;
+    width: 800px;
+    height: 580px;
+    background-color: rgba(236, 236, 236, 0.3);
+    padding: 30px 50px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    /* For IE and modern versions of Chrome */
+    -moz-box-sizing: border-box;
+    /* For Firefox                          */
+    -webkit-box-sizing: border-box;
+    /* For Safari                        */ }
+    body #container nav {
+      width: auto;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px; }
+      body #container nav > figure {
+        width: 23%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 4px; }
+        body #container nav > figure > figcaption {
+          width: 70%;
+          padding: 3px;
+          font-weight: bold; }
+        body #container nav > figure:first-of-type {
+          background-color: #76ACD0;
+          border-radius: 10px; }
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; }
+  main > div {
+    width: 48%; }
+    main > div fieldset {
+      padding: 40px 14px 20px;
+      width: 100%;
+      border: 2px solid #3A6F8E;
+      border-radius: 20px;
+      height: 350px;
+      box-sizing: border-box;
+      /* For IE and modern versions of Chrome */
+      -moz-box-sizing: border-box;
+      /* For Firefox                          */
+      -webkit-box-sizing: border-box;
+      /* For Safari     */ }
+      main > div fieldset legend {
+        border: 0;
+        /* 1 */
+        padding: 0;
+        /* 2 */
+        text-align: center;
+        font-weight: bold; }
+      main > div fieldset input[type="text"],
+      main > div fieldset input[type="email"],
+      main > div fieldset input[type="tel"],
+      main > div fieldset input[type="date"],
+      main > div fieldset select {
+        border-radius: 20px;
+        border: 2px solid #3A6F8E;
+        box-sizing: border-box;
+        width: 100%;
+        height: 40px;
+        text-align: center;
+        color: #3A6F8E;
+        margin: 12px auto;
+        font-size: 22px;
+        background-color: rgba(236, 236, 236, 0.7);
+        /* For IE and modern versions of Chrome */
+        -moz-box-sizing: border-box;
+        /* For Firefox                          */
+        -webkit-box-sizing: border-box;
+        /* For Safari                           */ }
+      main > div fieldset select {
+        height: 48px; }
+      main > div fieldset ::-webkit-input-placeholder {
+        color: #3A6F8E; }
+      main > div fieldset p {
+        text-align: center;
+        margin-bottom: 10px; }
+      main > div fieldset .radio {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px; }
+        main > div fieldset .radio input {
+          width: 15px;
+          height: 15px; }
+      main > div fieldset #first-name, main > div fieldset #email, main > div fieldset #tel {
+        position: relative;
+        text-align: center; }
+      main > div fieldset input[type="image"] {
+        position: absolute;
+        height: 25px;
+        border-radius: 5px;
+        top: 0;
+        left: 10px;
+        bottom: 0;
+        right: auto;
+        margin: auto;
+        border: none; }
+      main > div fieldset div.destination, main > div fieldset div.date {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  float: right; }
+  footer > div {
+    padding-top: 10px;
+    padding-left: 10px; }
+    footer > div input {
+      width: 95px;
+      height: 55px;
+      font-size: 24px;
+      border-radius: 20px;
+      background-color: transparent; }
+      footer > div input[type="reset"] {
+        color: red;
+        border: 2px solid red; }
+      footer > div input[type="submit"] {
+        color: #07FF08;
+        border: 2px solid #07FF08;
+        margin-left: 5px; }
+

@@ -1,0 +1,105 @@
+
+/*https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
+/*https://www.youtube.com/watch?v=G7EIAgfkhmg*/
+.wrapper
+{
+    display           : -webkit-box;
+    display           : -moz-box;
+    display           : -ms-flexbox;
+    display           : -webkit-flex;
+    display           : flex;
+    -webkit-flex-flow : row wrap;
+    flex-flow         : row wrap;
+    font-weight       : bold;
+    text-align        : center;
+
+    /* We rely on source order for mobile-first approach
+     * in this case:
+     * 1. header
+     * 2. nav
+     * 3. main
+     * 4. aside
+     * 5. footer
+     */
+    > *
+    {
+        padding : 10px;
+        flex    : 1 100%;
+    }
+
+    .header
+    {
+        background : tomato;
+    }
+
+    .footer
+    {
+        background : lightgreen;
+    }
+
+    .main
+    {
+        text-align : left;
+        background : deepskyblue;
+    }
+
+    .aside-1
+    {
+        background : gold;
+    }
+
+    .aside-2
+    {
+        background : hotpink;
+    }
+}
+
+
+
+/* Medium screens */
+@media all and (min-width : 600px) {
+    /* We tell both sidebars to share a row */
+    .aside
+    {
+        /*flex-shrink is left as default 1*/
+        /*the same as*/
+        /*flex : 1 0px;*/
+        flex : 1 auto;
+    }
+}
+
+/* Large screens */
+@media all and (min-width : 800px) {
+    /* We invert order of first sidebar and main
+  * And tell the main element to take twice as much width as the other two sidebars
+  */
+    /*flex-shrink is left as default 1*/
+    /*the same as*/
+    /*.aside, .main { flex: 1 auto; }*/
+    /*.main{flex: 2;}*/
+    .main
+    {
+        flex : 2 0px;
+    }
+
+    // header stays order:0 as inital
+    .aside-1
+    {
+        order : 1;
+    }
+
+    .main
+    {
+        order : 2;
+    }
+
+    .aside-2
+    {
+        order : 3;
+    }
+
+    .footer
+    {
+        order : 4;
+    }
+}

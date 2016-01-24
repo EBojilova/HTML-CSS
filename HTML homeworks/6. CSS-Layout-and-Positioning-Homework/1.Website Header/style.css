@@ -1,0 +1,182 @@
+body
+{
+	font-family : tahoma, sans-serif;
+	color       : #ffffff;
+	font-size   : 15px;
+}
+
+a
+{
+	font-size : 0.9em;
+	color           : #ffffff;
+	text-decoration : none;
+}
+
+#container
+{
+	width              : 1200px;
+	height             : 112px;
+	margin             : 0 auto;
+	background-color   : #234465;
+	display            : flex;
+	justify-content    : space-between;
+	box-sizing         : border-box; /* For IE and modern versions of Chrome */
+	-moz-box-sizing    : border-box; /* For Firefox                          */
+	-webkit-box-sizing : border-box; /* For Safari                           */
+	padding            : 2% 4%;
+}
+
+#logo
+{
+	width   : 22%;
+	height  : 100%;
+	display : table;
+}
+
+#logo > span
+{
+	vertical-align : middle;
+	display        : table-cell;
+}
+
+#right-div
+{
+	width           : 78%;
+	height          : 100%;
+	display         : flex;
+	flex-direction  : column;
+	justify-content : space-between;
+}
+
+#upper-div
+{
+	width           : 100%;
+	display         : flex;
+	justify-content : flex-end;
+	align-items     : center;
+}
+
+#zero
+{
+	margin : 0 2px;
+}
+
+#zero:hover, #user:hover
+{
+	text-decoration : underline;
+}
+
+#user
+{
+	margin : 0 10px;
+}
+
+#search
+{
+	position : relative;
+}
+
+input[type="search"]
+{
+	width         : 250px;
+	height        : 30px;
+	border-radius : 5px;
+	border        : none;
+}
+
+input[type="image"]
+{
+	position      : absolute;
+	height        : 100%;
+	border-radius : 5px;
+	top           : 0;
+	left          : auto;
+	bottom        : 0;
+	right         : 0;
+	margin        : auto;
+	border-left   : 1px solid #e3e3e3;
+}
+
+#menu
+{
+	width : 100%;
+}
+
+#menu > ul
+{
+	display         : flex;
+	justify-content : flex-end;
+	align-items     : center;
+}
+
+ul li
+{
+	position           : relative;
+	padding            : 15px 0;
+	margin-left        : 40px;
+	box-sizing         : border-box; /* For IE and modern versions of Chrome */
+	-moz-box-sizing    : border-box; /* For Firefox                          */
+	-webkit-box-sizing : border-box; /* For Safari                           */
+}
+
+ul li:hover
+{
+	background-color : #4CA0DB;
+	border-radius    : 5px;
+}
+
+ul li > ul
+{
+	display                    : none;
+	position                   : absolute;
+}
+
+ul li:hover > ul
+{
+	display        : flex;
+	width          : 250px;
+	flex-direction : column;
+	/*top                        : 38px;*/
+	border-bottom-right-radius : 5px;
+	border-bottom-left-radius  : 5px;
+}
+
+ul li:hover > ul li
+{
+	padding : 15px;
+	left    : -40px;
+}
+
+ul ul li
+{
+	padding          : 0;
+	background-color : #234465;
+	border-bottom    : 1px solid #647B92;
+}
+
+ul ul li:last-of-type, ul ul li:last-of-type:hover
+{
+	border-bottom              : none;
+	border-bottom-right-radius : 5px;
+	border-bottom-left-radius  : 5px;
+}
+
+
+ul ul li:hover
+{
+	background-color : #FF9C00;
+	border-radius    : 0;
+}
+
+
+.section
+{
+	font-weight : bold;
+	color       : #4ca0db;
+}
+
+.section:hover
+{
+	font-weight : bold;
+	color       : #ffffff;
+}

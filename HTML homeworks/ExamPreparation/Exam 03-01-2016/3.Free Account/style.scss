@@ -1,0 +1,217 @@
+//Fonts: "Arial", "Helvetica", sans-serif; 20px
+//Input fields and Destination: 22px.
+//Destination options font-size: 14px.
+//“Send” and “Reset”: 24px.
+
+body
+{
+
+    background-image : url('images/background.jpg');
+    background-size  : cover;
+    font-family      : Helvetica, sans-serif;
+    font-size        : 20px;
+    color            : #3A6F8E;
+
+    #container
+    {
+        position           : absolute;
+        top                : 10px;
+        left               : 50%;
+        //margin-top: -175px;
+        margin-left        : -400px;
+        width              : 800px;
+        height             : 580px;
+        background-color   : rgba(236, 236, 236, 0.3);
+        padding            : 30px 50px;
+        border-radius      : 50px;
+        box-sizing         : border-box; /* For IE and modern versions of Chrome */
+        -moz-box-sizing    : border-box; /* For Firefox                          */
+        -webkit-box-sizing : border-box; /* For Safari                        */
+
+        nav
+        {
+            width           : auto;
+            display         : flex;
+            justify-content : space-between;
+            margin-bottom: 10px;
+            > figure
+            {
+                width           : 23%;
+                display         : flex;
+                justify-content : space-between;
+                align-items     : center;
+                padding         : 4px;
+
+                > figcaption
+                {
+                    width       : 70%;
+                    padding     : 3px;
+                    font-weight : bold;
+                }
+
+                &:first-of-type
+                {
+                    background-color : #76ACD0;
+                    border-radius    : 10px;
+                }
+            }
+        }
+
+    }
+
+    .part
+    {
+        padding-top: 30px;
+        width              : 100%;
+        border             : 2px solid #3A6F8E;
+        box-sizing         : border-box;
+        border-radius      : 20px;
+        height             : 350px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing         : border-box; /* For IE and modern versions of Chrome */
+        -moz-box-sizing    : border-box; /* For Firefox                          */
+        -webkit-box-sizing : border-box; /* For Safari     */
+        //height             : 260px;
+    }
+
+}
+
+.main
+{
+    width : 100%;
+    margin-bottom: 10px;
+}
+
+.left, .right
+{
+    width : 48%;
+}
+
+.left
+{
+    float : left;
+}
+
+.right
+{
+    float : right;
+    p{
+        text-align: center;
+    }
+}
+
+legend
+{
+    border      : 0;
+    /* 1 */
+    padding     : 0;
+    /* 2 */
+    text-align  : center;
+    font-weight : bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="datetime"],
+select
+{
+
+
+    border-radius      : 20px;
+    border             : 2px solid #3A6F8E;
+    box-sizing         : border-box;
+    width              : 85%;
+    height             : 40px;
+    text-align         : center;
+    color              : #3A6F8E;
+    margin             : 20px 0;
+    font-size          : 22px;
+    background-color   : rgba(236, 236, 236, 0.7);
+    /* For IE and modern versions of Chrome */
+    -moz-box-sizing    : border-box;
+
+    /* For Firefox                          */
+    -webkit-box-sizing : border-box;
+
+    /* For Safari                           */
+
+}
+
+::-webkit-input-placeholder {
+    color              : #3A6F8E;
+}
+
+.radio
+{
+    display         : flex;
+    width           : 75%;
+    justify-content : center;
+
+    input
+    {
+        width  : 15px;
+        height : 15px;
+    }
+}
+
+
+#first-name, #email, #tel
+{
+    position : relative;
+}
+
+input[type="image"]
+{
+    position      : absolute;
+    height        : 25px;
+    border-radius : 5px;
+    top           : 0;
+    left          : 10px;
+    bottom        : 0;
+    right         : auto;
+    margin        : auto;
+    border        : none;
+}
+
+footer{
+    display:flex;;
+    justify-content: flex-end;
+    float:right;
+}
+
+footer>div{
+    padding-top:10px;
+    padding-left:10px;
+}
+
+input
+{
+    &[type="submit"]
+    {
+        width            : 90px;
+        height           : 60px;
+        color            : red;
+        font-size        : 24px;
+        border-radius    : 20px;
+        border           : 2px solid red;
+        background-color : transparent;
+        //float            : right;
+
+    }
+
+    &[type="reset"]
+    {
+        width            : 90px;
+        height           : 60px;
+        color            : #07FF08;
+        font-size        : 24px;
+        border-radius    : 20px;
+        border           : 2px solid #07FF08;
+        background-color : transparent;
+        //float            : right;
+        margin-left: 5px;
+    }
+}

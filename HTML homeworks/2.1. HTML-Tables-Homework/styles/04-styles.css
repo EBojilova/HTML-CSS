@@ -1,0 +1,102 @@
+﻿body, a {
+    font-family: 'PT Sans', Tahoma, sans-serif;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    font-size: 1em;
+}
+
+#container {
+    background: #234465;
+    margin: 0;
+}
+
+table {
+    background: #234465;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    margin: 5px;
+    text-indent: 10px;
+    border-radius: 5px;
+    opacity: 0.5;
+}
+
+td {
+    padding: 0 5px 0 5px;
+    text-align: right;
+}
+
+tr {
+    width: 1260px;
+}
+
+td.space {
+    width: 400px;
+}
+
+td#unread-notifications {
+    vertical-align: middle;
+}
+
+img {
+    vertical-align: middle;
+}
+
+form {
+    background: white;
+    border-radius: 5px;
+}
+
+input, button {
+    border: none;
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
+
+button:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+input[type=text] {
+    width: 200px;
+}
+
+ul li:hover {
+    opacity: 1;
+}
+
+td > a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+#search {
+    font-size: 20px;
+}

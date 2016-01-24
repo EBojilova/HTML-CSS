@@ -1,0 +1,237 @@
+﻿/* cyrillic-ext */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Ubuntu Light"), local("Ubuntu-Light"), url(http://fonts.gstatic.com/s/ubuntu/v8/X_EdMnknKUltk57alVVbVxJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F; }
+
+/* cyrillic */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Ubuntu Light"), local("Ubuntu-Light"), url(http://fonts.gstatic.com/s/ubuntu/v8/nBF2d6Y3AbOwfkBM-9HcWBJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+
+/* greek-ext */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Ubuntu Light"), local("Ubuntu-Light"), url(http://fonts.gstatic.com/s/ubuntu/v8/CdlIlwqST01WNAKqZbtZkhJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF; }
+
+/* greek */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Ubuntu Light"), local("Ubuntu-Light"), url(http://fonts.gstatic.com/s/ubuntu/v8/7k0RmqCN8EFxqS6sChuRzRJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");
+  unicode-range: U+0370-03FF; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Ubuntu Light"), local("Ubuntu-Light"), url(http://fonts.gstatic.com/s/ubuntu/v8/WtcvfJHWXKxx4x0kuS1koRJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Ubuntu Light"), local("Ubuntu-Light"), url(http://fonts.gstatic.com/s/ubuntu/v8/_aijTyevf54tkVDLy-dlnFtXRa8TVwTICgirnJhmVJw.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Ubuntu"), url(http://fonts.gstatic.com/s/ubuntu/v8/ODszJI8YqNw8V2xPulzjO_esZW2xOQ-xsNqO47m55DA.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F; }
+
+/* cyrillic */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Ubuntu"), url(http://fonts.gstatic.com/s/ubuntu/v8/iQ9VJx1UMASKNiGywyyCXvesZW2xOQ-xsNqO47m55DA.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Ubuntu"), url(http://fonts.gstatic.com/s/ubuntu/v8/Wu5Iuha-XnKDBvqRwQzAG_esZW2xOQ-xsNqO47m55DA.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Ubuntu"), url(http://fonts.gstatic.com/s/ubuntu/v8/sDGTilo5QRsfWu6Yc11AXg.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* greek */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Ubuntu Bold"), local("Ubuntu-Bold"), url(http://fonts.gstatic.com/s/ubuntu/v8/M-Ii49WH_TYYnOjQyLgTMBJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");
+  unicode-range: U+0370-03FF; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Ubuntu Bold"), local("Ubuntu-Bold"), url(http://fonts.gstatic.com/s/ubuntu/v8/nsLtvfQoT-rVwGTHHnkeJhJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Ubuntu Bold"), local("Ubuntu-Bold"), url(http://fonts.gstatic.com/s/ubuntu/v8/0ihfXUL2emPh0ROJezvraFtXRa8TVwTICgirnJhmVJw.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+body {
+  font-family: Myrad Pro, sans-serif;
+  color: #677a80;
+  font-size: 13px; }
+
+a {
+  text-decoration: none; }
+
+p.blue-link {
+  padding-top: 9px;
+  padding-bottom: 28px; }
+
+.blue-link a {
+  color: #44b2c9; }
+
+nav a, h1, h2, p.bottom-logo-text {
+  font-family: Ubuntu;
+  text-transform: uppercase; }
+
+h4 {
+  font-family: Ubuntu;
+  text-transform: capitalize; }
+
+h2 {
+  font-size: 28px;
+  padding: 28px 0;
+  text-align: center; }
+
+h4 {
+  font-size: 20px;
+  padding: 10px 0; }
+
+nav > *, div.lets-work-together h4, footer span {
+  padding-top: 16px;
+  padding-bottom: 16px; }
+
+#container > header nav, #container > header > div, #container > div, #container > footer {
+  padding: 0 13%;
+  max-width: 1100px; }
+
+#container > header {
+  background: linear-gradient(45deg, #4f4f85, #4ba09b);
+  color: white;
+  padding-bottom: 25px; }
+  #container > header a {
+    color: white; }
+  #container > header nav {
+    border-bottom: 1px solid darkgray;
+    display: flex;
+    justify-content: space-between; }
+    #container > header nav span a {
+      font-size: 20px; }
+    #container > header nav ul {
+      width: 45%;
+      display: flex;
+      justify-content: space-between; }
+    #container > header nav li a {
+      font-size: 13px; }
+  #container > header div {
+    width: auto;
+    text-align: center; }
+    #container > header div h1 {
+      padding-top: 50px;
+      color: #58efff;
+      font-size: 54px;
+      letter-spacing: 8px;
+      font-weight: bold; }
+    #container > header div p.bottom-logo-text {
+      letter-spacing: 3px; }
+    #container > header div p.slogan {
+      padding: 60px 100px 25px;
+      font-size: 35px; }
+    #container > header div form {
+      padding: 35px 0; }
+      #container > header div form button {
+        font-family: Ubuntu;
+        text-transform: capitalize;
+        font-size: 24px;
+        border: 1px solid white;
+        color: white;
+        background-color: #4d668b;
+        width: 25%;
+        height: 50px; }
+    #container > header div p a {
+      border-bottom: 1px solid white;
+      padding-bottom: 5px;
+      letter-spacing: 3px; }
+
+#container div.creative-performance h2 {
+  text-align: center; }
+
+#container div.creative-performance > section {
+  width: auto;
+  display: flex;
+  justify-content: space-between; }
+  #container div.creative-performance > section div {
+    width: 30%;
+    text-align: center; }
+
+#container div.lets-work-together {
+  background-color: #ff7978;
+  width: auto;
+  text-align: center;
+  color: white;
+  text-transform: capitalize; }
+
+#container div.how-we-work-better > section {
+  width: auto;
+  display: flex;
+  justify-content: space-between; }
+  #container div.how-we-work-better > section > figure {
+    width: 48%;
+    display: flex;
+    justify-content: space-between; }
+    #container div.how-we-work-better > section > figure > div {
+      width: 40%; }
+      #container div.how-we-work-better > section > figure > div > img {
+        width: 100%; }
+    #container div.how-we-work-better > section > figure > figcaption {
+      background-color: #f7f8fa;
+      width: 60%;
+      padding-left: 10px; }
+
+#container div.so-our-clients-say > * {
+  text-align: center; }
+
+#container footer {
+  background-color: #282e3c;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  height: 50px; }
+

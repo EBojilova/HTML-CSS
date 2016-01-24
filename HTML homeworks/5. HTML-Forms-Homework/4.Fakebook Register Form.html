@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "UTF-8">
+     <link rel = "stylesheet"
+           type = "text/css"
+           href = "styles/reset.css">
+    <link rel = "stylesheet"
+          type = "text/css"
+          href = "styles/4style.css">
+    <title>Fakebook Register Form</title>
+</head>
+<body>
+    <div id = "container">
+        <header>
+            <h1>
+                fakebook<span>&reg;</span>
+            </h1>
+            <h3>Registration</h3>
+            <p>It is safe and it will always be!</p>
+        </header>
+        <main>
+            <form>
+                <div id = "left-div">
+                    <fieldset class = "field_set">
+                        <legend>
+                            None-Important Information
+                        </legend>
+                        <div class = "left-entries">
+                            <input type = "text"
+                                   name = "first-name"
+                                   id = "first-name"
+                                   placeholder = "First Name"
+                                   class = "left-div-inputs">
+                            <input type = "text"
+                                   name = "last-name"
+                                   id = "last-name"
+                                   placeholder = "Last Name"
+                                   class = "left-div-inputs">
+                            <input type = "email"
+                                   name = "email"
+                                   id = "email"
+                                   placeholder = "Your Email"
+                                   class = "left-div-inputs">
+                            <input type = "tel"
+                                   name = "tel"
+                                   id = "tel"
+                                   placeholder = "Phone Number"
+                                   class = "left-div-inputs">
+                            <input type = "password"
+                                   name = "password"
+                                   id = "password"
+                                   placeholder = "Your Password"
+                                   class = "left-div-inputs">
+                            <input type = "url"
+                                   name = "url"
+                                   id = "url"
+                                   placeholder = "Website"
+                                   class = "left-div-inputs">
+                        </div>
+                        <div class = "birthday">
+                            <label for = "birthday">
+                                Birthday
+                            </label>
+                            <input type = "datetime-local"
+                                   name = "birthday"
+                                   id = "birthday"
+                                   value = "2014-05-09T13:58:00.00">
+                        </div>
+                        <div class = "radio">
+                            <span>
+                                <input type = "radio"
+                                       name = "gender"
+                                       id = "female">
+                                <label for = "female">
+                                    Female
+                                </label>
+                            </span>
+                            <span>
+                                <input type = "radio"
+                                       name = "gender"
+                                       id = "male">
+                                <label for = "male">Male</label>
+                            </span>
+                            <span>
+                                <input type = "radio"
+                                       name = "gender"
+                                       id = "other">
+                                <label for = "other">
+                                    Other
+                                </label>
+                            </span>
+                        </div>
+                    </fieldset>
+                    <input type = "reset"
+                           value = "Clear Form">
+                </div>
+                <div id = "right-div">
+                    <fieldset class = "field_set">
+                        <legend>Important Information *required</legend>
+                        <select name = "country"
+                                required = "required"
+                                class = "oneThird">
+                            <option disabled = "disabled"
+                                    value = ""
+                                    selected = "selected">Country</option>
+                            <option value = "bulgaria">Bulgaria</option>
+                            <option value = "bulgaria">Great Britain</option>
+                            <option value = "bulgaria">Germany</option>
+                        </select>
+                        <input type = "text"
+                               name = "village"
+                               id = "village"
+                               class = "oneThird"
+                               placeholder = "Village"
+                               required = "required"
+                               tabindex = "5">
+                        <input type = "text"
+                               name = "district"
+                               id = "district"
+                               class = "oneThird"
+                               placeholder = "District"
+                               required = "required"
+                               tabindex = "3">
+                        <input type = "text"
+                               name = "street"
+                               id = "street"
+                               class = "oneThird"
+                               placeholder = "Street"
+                               required = "required"
+                               tabindex = "6">
+                        <input type = "number"
+                               name = "number"
+                               id = "number"
+                               min = "0"
+                               class = "small"
+                               placeholder = "Nr"
+                               required = "required"
+                               tabindex = "1">
+                        <input type = "number"
+                               name = "floor"
+                               id = "floor"
+                               min = "0"
+                               class = "small"
+                               placeholder = "Floor"
+                               required = "required"
+                               tabindex = "2">
+                        <input type = "number"
+                               name = "ap-number"
+                               min = "0"
+                               id = "ap-number"
+                               class = "small"
+                               placeholder = "Ap Nr"
+                               required = "required"
+                               tabindex = "4">
+                        <span class = "doorColour">
+                            <label for = "door-color">Door color</label>
+                            <input type = "color"
+                                   name = "door-color"
+                                   id = "door-color"
+                                   class = "oneThird"
+                                   value = "#ff80c0">
+                        </span>
+                        <input type = "text"
+                               name = "water"
+                               id = "water"
+                               placeholder = "Water meter Nr"
+                               class = "oneThird"
+                               required = "required">
+                        <select name = "size"
+                                required = "required"
+                                class = "oneThird">
+                            <option disabled = "disabled"
+                                    value = ""
+                                    selected = "selected">Aunt Panties`Size</option>
+                            <option value = "xl">XL</option>
+                            <option value = "xxl">XXL</option>
+                            <option value = "xxxl">XXXL</option>
+                        </select>
+                        <label for = "info">More Personal Information</label>
+                        <textarea id = "info"
+                                  name = "more-info"
+                                  placeholder = "Give Us More Information!!!"
+                                  required = "required"></textarea>
+                    </fieldset>
+                    <input type = "submit"
+                           value = "Register">
+                </div>
+            </form>
+        </main>
+    </div>
+</body>
+</html>

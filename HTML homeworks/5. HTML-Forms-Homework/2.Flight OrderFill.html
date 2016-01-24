@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+    <link rel = "stylesheet"
+          type = "text/css"
+          href = "styles/reset.css">
+    <link href = "styles/2styleFil.css"
+          rel = "stylesheet"/>
+    <title>Flight Order</title>
+    <meta charset = "utf-8"/>
+</head>
+<body>
+    <div id = "container">
+        <header>
+            <h1>FLIGHT ORDER</h1>
+        </header>
+        <form>
+            <div id = "left">
+                <span class = "higher">
+                    <label for = "from-city">From</label>
+                    <input list = "cities"
+                           name = "from"
+                           id = "from-city"
+                           placeholder = "enter a city"/>
+                    <datalist id = "cities">
+                        <option value = "Sofia">
+                        <option value = "Pernik">
+                        <option value = "Pazardzhik">
+                        <option value = "Burgas">
+                    </datalist>
+                </span>
+                <span>
+                    <label for = "departure-date">Departure Date</label>
+                    <input type = "date"
+                           name = "departure-date"
+                           id = "departure-date"
+                           value = "2014-06-09"/>
+                </span>
+                <span>
+                    <label for = "return-date">Return Date</label>
+                    <input type = "date"
+                           name = "return-date"
+                           id = "return-date"
+                           value = "2014-06-13"/>
+                </span>
+                <span class = "ageRange">
+                    <label for = "children-12-plus">12+</label>
+                    <input name = "children-12-plus"
+                           id = "children-12-plus"
+                           type = "number"
+                           min = "0"
+                           max = "5"
+                           value = "0"/>
+                </span>
+                <span class = "ageRange">
+                    <label for = "2-12">2-12</label>
+                    <input name = "children-2-12"
+                           id = "2-12"
+                           type = "number"
+                           min = "0"
+                           max = "5"
+                           value = "0"/>
+                </span>
+                <span class = "ageRange">
+                    <label for = "0-2">0-2</label>
+                    <input name = "children-0-2"
+                           id = "0-2"
+                           type = "number"
+                           min = "0"
+                           max = "5"
+                           value = "0"/>
+                </span>
+            </div>
+            <div id = "right">
+                <span class = "higher">
+                    <label for = "destination">To</label>
+                    <input list = "cities"
+                           name = "to"
+                           id = "destination"
+                           placeholder = "enter a city"/>
+                    <input type = "checkbox"
+                           id = "direct"/>
+                    <label class = "checkboxLabel">Prefer directs</label>
+                </span>
+                <span>
+                    <label for = "departure-time-min">Time Interval</label>
+                    <input type = "time"
+                           class = "time"
+                           name = "departure-time-min"
+                           id = "departure-time-min"
+                           value = "00:20"/>
+                    <input type = "time"
+                           class = "time"
+                           name = "departure-time-max"
+                           id = "departure-time-max"
+                           value = "05:00"/>
+                </span>
+                <span>
+                    <label for = "return-time-min">Time Interval</label>
+                    <input type = "time"
+                           class = "time"
+                           name = "return-time-min"
+                           id = "return-time-min"
+                           value = "16:00"/>
+                    <input type = "time"
+                           class = "time"
+                           name = "return-time-max"
+                           id = "return-time-max"
+                           value = "22:00"/>
+                </span>
+                <span>
+                    <label for = "flight-class">Choose class</label>
+                    <select name = "class"
+                            id = "flight-class">
+                        <option value = "econ"
+                                selected = "selected">
+                            Economy
+                        </option>
+                        <option value = "premium">Premium Economy</option>
+                        <option value = "business">Business</option>
+                        <option value = "first-class">First class</option>
+                    </select>
+                </span>
+                <span>
+                    <input type = "submit"
+                           id = "search"
+                           value = "Search">
+                </span>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

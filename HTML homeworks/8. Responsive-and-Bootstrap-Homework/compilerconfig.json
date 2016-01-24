@@ -1,0 +1,10 @@
+﻿[
+  {
+    "outputFile": "01-UnresponsiveHomework/styles/style.css",
+    "inputFile": "01-UnresponsiveHomework/styles/style.scss"
+  },
+  {
+    "outputFile": "01-UnresponsiveHomework/styles/media-queries.css",
+    "inputFile": "01-UnresponsiveHomework/styles/media-queries.scss"
+  }
+]

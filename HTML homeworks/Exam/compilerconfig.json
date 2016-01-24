@@ -1,0 +1,18 @@
+﻿[
+  {
+    "outputFile": "1.ArtGalery/style.css",
+    "inputFile": "1.ArtGalery/style.scss"
+  },
+  {
+    "outputFile": "3.Free Account/style.css",
+    "inputFile": "3.Free Account/style.scss"
+  },
+  {
+    "outputFile": "4.Mandarin Bird/style.css",
+    "inputFile": "4.Mandarin Bird/style.scss"
+  },
+  {
+    "outputFile": "4.Mandarin Bird/media-queries.css",
+    "inputFile": "4.Mandarin Bird/media-queries.scss"
+  }
+]

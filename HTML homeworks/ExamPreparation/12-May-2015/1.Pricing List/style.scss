@@ -1,0 +1,130 @@
+//@import "https://fonts.googleapis.com/css?family=Vollkorn";
+
+@font-face
+{
+    src         : url('fonts/Vollkorn-Regular.ttf');
+    font-family : Vollkorn
+}
+
+@mixin hoover-effect
+{
+    background-color : rgb(101, 211, 226);
+    color            : white;
+}
+
+body
+{
+    font-size   : 16px;
+    font-family : tahoma, sans-serif;
+    color       : rgb(118, 135, 149);
+
+    #container
+    {
+        width              : 1000px;
+        display            : table;
+        box-sizing         : border-box; /* For IE and modern versions of Chrome */
+        -moz-box-sizing    : border-box; /* For Firefox                          */
+        -webkit-box-sizing : border-box; /* For Safari                           */
+        margin             : 0 auto;
+        background-color   : white;
+        padding            : 2%;
+
+        header
+        {
+            text-align : center;
+
+            h1
+            {
+                font-size      : 40px;
+                text-transform : uppercase;
+                font-weight    : bold;
+                font-family    : Vollkorn;
+            }
+        }
+
+        section
+        {
+            width           : auto;
+            display         : flex;
+            justify-content : space-between;
+            margin-top      : 5%;
+
+            > div
+            {
+                width            : 30%;
+                //height: 582px;
+                display          : table;
+                background-color : rgb(246, 247, 249);
+
+                p
+                {
+                    text-align : center;
+                    margin     : 25px 0;
+                }
+
+                div.bussinesss-hover
+                {
+                    p.bussiness-size
+                    {
+                        background-color : rgb(234, 238, 241);
+                        font-size        : 30px;
+                        text-transform   : capitalize;
+                        //font-weight: bold;
+                        font-family      : Vollkorn;
+                        margin           : 0px;
+                        padding          : 30px 0;
+                    }
+
+                    p.price
+                    {
+                        font-size   : 60px;
+                        //text-transform: capitalize;
+                        /*font-weight: bold;*/
+                        font-family : Vollkorn;
+                    }
+
+                    &:hover
+                    {
+                        p.bussiness-size
+                        {
+                            @include hoover-effect;
+                        }
+
+                        p.price
+                        {
+                            color : rgb(101, 211, 226);
+                        }
+
+                        cursor: pointer;
+                    }
+                }
+
+                p.not-included
+                {
+                    visibility : hidden;
+                }
+
+                form
+                {
+                    width  : 83%;
+                    margin : 30px auto;
+
+                    input
+                    {
+                        height           : 60px;
+                        width            : 100%;
+                        color            : white;
+                        background-color : rgb(202, 213, 217);
+                        border           : none;
+                        border-radius    : 3px;
+                        &:hover
+                        {
+                            @include hoover-effect;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

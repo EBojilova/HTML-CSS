@@ -1,0 +1,185 @@
+// RESET
+body, header, nav, ul, li, section, article, h1, h2, aside, a, p, div, footer, img
+{
+    margin     : 0;
+    padding    : 0;
+    box-sizing : border-box;
+}
+
+// GENERAL
+#wrapper > header, aside, section, footer
+{
+    background-color : rgba(254, 227, 229, 0.9);
+    border           : 2px solid black;
+}
+
+// BODY
+body
+{
+    font-family       : tahoma, sans-serif;
+    background-image  : url(../images/background-flowers.jpg);
+    background-repeat : repeat;
+
+    #wrapper
+    {
+        width                   : 80%;
+        margin                  : 0 auto;
+        -ms-box-orient          : horizontal;
+        display                 : -webkit-box;
+        display                 : -moz-box;
+        display                 : -ms-flexbox;
+        display                 : -webkit-flex;
+        display                 : flex;
+        -webkit-justify-content : space-between;
+        justify-content         : space-between;
+        -webkit-flex-flow       : row wrap;
+        flex-flow               : row wrap;
+        -webkit-align-items     : stretch;
+        align-items             : stretch;
+
+        // HEADER
+        > header
+        {
+            flex          : 1 100%;
+            order         : -1;
+            padding       : 2%;
+            margin-bottom : 10px;
+
+            h1 a
+            {
+                display         : flex;
+                justify-content : space-between;
+                text-decoration : none;
+                padding-bottom  : 2%;
+
+                img
+                {
+                    width      : 20%;
+                    height     : 10%;
+                    margin-top : 10px;
+                }
+                span
+                {
+                    color     : black;
+                    font-size : 1.5em;
+                }
+            }
+
+            nav
+            {
+                > ul
+                {
+                    display         : flex;
+                    justify-content : flex-end;
+                    list-style-type : none;
+                }
+
+                ul li
+                {
+                    background-color : #eb2a7b;
+                    border           : 1px solid black;
+                    padding          : 10px 0;
+                    margin-left      : 1%;
+                    width            : 150px;
+                    text-align       : center;
+
+                    a
+                    {
+                        color           : white;
+                        text-decoration : none;
+                    }
+                }
+            }
+        }
+
+        // ASIDE
+        aside
+        {
+            ul
+            {
+                list-style-type : none;
+            }
+            &.left
+            {
+                flex          : 1;
+                margin-bottom : 2%;
+                padding       : 10px;
+
+                a
+                {
+                    color           : black;
+                    text-decoration : none;
+
+                    img
+                    {
+                        display        : inline-block;
+                        vertical-align : middle;
+                    }
+
+                    span
+                    {
+                        vertical-align : -15%;
+                    }
+                }
+            }
+
+            &.right
+            {
+                flex          : 1;
+                order         : 3;
+                // TODO: ne se pokazva
+                margin-bottom : 2%;
+                padding       : 15px 10px;
+            }
+        }
+
+        // SECTION
+        section
+        {
+            flex    : 4;
+            // TODO: ne se pokazva- margin-bottom
+            margin  : 0 2% 5% 2%;
+            height  : 100%;
+            padding : 1% 0 2% 1%;
+
+            article header h1
+            {
+                font-size : 1.7em;
+                padding   : 2% 0 2% 0;
+            }
+
+            div{
+                display: flex;
+                justify-content: space-between;
+                align-content: space-between;
+
+                img
+                {
+                    width : 24%;
+                }
+            }
+        }
+
+        // FOOTER
+        footer
+        {
+            flex       : 1 100%;
+            order      : 10;
+            height     : 70px;
+            text-align : center;
+            margin-top : 10px;
+
+            h2
+            {
+                margin-top : 17px;
+
+                a
+                {
+                    font-size : 0.8em;
+                    color     : black;
+                }
+            }
+        }
+    }
+}
+
